@@ -43,7 +43,7 @@ class Entity:
     def update_entities(self, value):
         file_manager.update_json_file(value)
 
-    def delete_contact_by_key(self, key, value):
+    def delete_entity_by_key(self, key, value):
         all_entites: list = self.get_all()
 
         filtered_entities = [
